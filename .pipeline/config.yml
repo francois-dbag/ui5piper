@@ -1,7 +1,6 @@
 general:
   collectTelemetryData: false
 steps:
-  npmExecuteScripts:
-    defaultNpmRegistry: "https://npm.sap.com"
-  buildExecute:
-    buildTool: 'npm'
+  mtaBuild:
+    defaultNpmRegistry: 'https://npm.sap.com'
+    buildTarget: 'NEO'
