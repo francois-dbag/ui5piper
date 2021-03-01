@@ -1,0 +1,10 @@
+_schema-version: 2.1.0
+ID: ui5piper
+version: 1.0.0
+description: UI5 test app for Project Piper 
+modules:
+  - name: piper.node.hello.world
+    type: html5
+    path: .
+    parameters:
+       version: ${timestamp}
