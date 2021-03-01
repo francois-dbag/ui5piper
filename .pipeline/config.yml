@@ -4,3 +4,4 @@ steps:
   mtaBuild:
     defaultNpmRegistry: 'https://npm.sap.com'
     buildTarget: 'NEO'
+    verbose: true
