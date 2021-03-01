@@ -1,5 +1,7 @@
 general:
   collectTelemetryData: false
 steps:
+  npmExecuteScripts:
+    defaultNpmRegistry: "https://npm.sap.com"
   buildExecute:
     buildTool: 'npm'
