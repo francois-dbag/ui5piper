@@ -1,3 +1,5 @@
 general:
   collectTelemetryData: false
-  buildTool: 'npm'
+steps:
+  buildExecute:
+    buildTool: 'npm'
